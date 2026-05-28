@@ -1,0 +1,7 @@
+*.png
+*.npz
+*.csv
+dataset_parts
+libs
+mazes
+precomputed

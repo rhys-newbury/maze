@@ -1,0 +1,1 @@
+parallel -j 10 --line-buffer --tag python maze_panda.py {} ::: $(seq 0 9) \ | grep --line-buffered '^0\t' | cut -f2-
